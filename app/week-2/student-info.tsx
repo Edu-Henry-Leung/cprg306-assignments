@@ -4,7 +4,7 @@ export default function StudentInfo() {
     return (
         <nav>
             <h1>Henry Leung</h1>
-            <p>Github: <Link href="https://github.com/Edu-Henry-Leung">Link Here</Link></p>
+            <p>Github: <Link className="underline" href="https://github.com/Edu-Henry-Leung">Link Here</Link></p>
         </nav>
     );
 }
