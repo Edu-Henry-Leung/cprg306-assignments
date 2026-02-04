@@ -34,6 +34,13 @@ export default function AddItems() {
             alert("The Item name must have at least 2 characters!");
             return;
         }
+
+        if(quantity < 1) {
+            quantity = 1;
+        }
+        else if (quantity > 99) {
+            quantity = 99;
+        }
         
         const newItem = {
             name: name,
@@ -50,7 +57,7 @@ export default function AddItems() {
 
         setName("");
         setQuantity(1);
-        setCategory("Produce");
+        setCategory("Produce"); //Not sure how to reset select element?
         setNameTouched(false);
 
     }
