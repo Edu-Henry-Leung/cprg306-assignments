@@ -8,6 +8,7 @@ export default function Home() {
         <ul className="underline"><Link href="/week-2">week-2</Link></ul>
         <ul className="underline"><Link href="/week-3">week-3</Link></ul>
         <ul className="underline"><Link href="/week-4">week-4</Link></ul>
+        <ul className="underline"><Link href="/week-5">week-5</Link></ul>
       </nav>
     </main>
   );
